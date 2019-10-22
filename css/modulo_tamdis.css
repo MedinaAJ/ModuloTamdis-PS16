@@ -1,0 +1,82 @@
+/*
+* 2007-2015 PrestaShop
+*
+* NOTICE OF LICENSE
+*
+* This source file is subject to the Open Software License (OSL 3.0)
+* that is bundled with this package in the file LICENSE.txt.
+* It is also available through the world-wide-web at this URL:
+* http://opensource.org/licenses/osl-3.0.php
+* If you did not receive a copy of the license and are unable to
+* obtain it through the world-wide-web, please send an email
+* to license@prestashop.com so we can send you a copy immediately.
+*
+* DISCLAIMER
+*
+* Do not edit or add to this file if you wish to upgrade PrestaShop to newer
+* versions in the future. If you wish to customize PrestaShop for your
+* needs please refer to http://www.prestashop.com for more information.
+*
+*  @author    PrestaShop SA <contact@prestashop.com>
+*  @copyright 2007-2015 PrestaShop SA
+*  @version  Release: 0.4.4
+*  @license   http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+*  International Registered Trademark & Property of PrestaShop SA
+*/
+
+
+/*DETALLE tamdis*/
+.paneltamdis{
+	/*position: relative;*/
+    padding: 20px;
+    margin-bottom: 20px;
+    border: solid 1px #d3d8db;
+    background-color: #fff;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+fieldset#detalletamdis,fieldset#cashondeliverytamdis{border: none;background-color: #F2F2F2;color: #4C4C4C;font-size: 13px;position: relative; min-height: 160px; padding: 10px; margin-bottom: 20px;}
+fieldset#detalletamdis legend{ background-color: transparent; border:none; padding: 0px; position:relative; top:30px;}
+fieldset#detalletamdis .warn{margin-top:20px;}
+fieldset#cashondeliverytamdis legend{border: none;background-color: #F2F2F2;color: #4C4C4C;padding: 10px}
+#nBultostamdis label,#pBultostamdis label{width: 250px; margin-left:20px; margin-right:20px;}
+#nBultostamdis input,#pBultostamdis input{width: 250px;}
+
+fieldset#cashondeliverytamdis .save_codfee,fieldset#detalletamdis .buttonguardartamdis{ background-color: #A9C813;background-image: linear-gradient(to bottom, #A9C813, #778E30);border: 1px solid #7F9A52;border-radius: 1px 1px 1px 1px;box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);color: #FFFFFF;font-family: arial,helvetica,sans-serif;font-size: 16px;padding: 7px;
+text-align: left;text-decoration: none;text-shadow: 1px 1px 2px #000000;cursor: pointer;width: 120px;/*position: absolute;*/right: 20px;top:10px;}
+
+fieldset#detalletamdis .buttonguardartamdis:hover{background-image: linear-gradient(to bottom, #90AB17, #90AB17); background-color: #90AB17;	}
+fieldset#detalletamdis .tarifa,#fichaPedidoSeur #desgloseCosteEnvio,.pudos{background: url('../img/line.png') repeat-x 0px 10px transparent;padding-top: 50px;line-height: 26px;}
+fieldset#detalletamdis .tarifa img{padding-left: 15px;cursor: pointer;}
+.pudos{padding-top: 20px;line-height: 20px}
+
+div.pudos table.ver14{ width: 400px; }
+
+fieldset#cashondeliverytamdis .edit_codfee,fieldset#detalletamdis .buttongenerartamdis,fieldset#detalletamdis input.buttonprint{
+	background-color: #595959;
+    background-image: linear-gradient(to bottom, #595959, #262626);
+    border: 1px solid #000000;
+    border-radius: 1px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+    color: #ffffff;
+    cursor: pointer;
+    font-family: arial,helvetica,sans-serif;
+    font-size: 16px;
+    margin-right: 5px;
+    top: 15px;
+    padding: 7px;
+   /* position: absolute;*/
+    right: 0;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: 1px 1px 2px #000000;
+    width: 120px;
+}
+fieldset#cashondeliverytamdis .edit_codfee,fieldset#cashondeliverytamdis .save_codfee{position:relative; top:auto;float:right;}
+fieldset#detalletamdis input.buttonprint{width: 150px}
+fieldset#detalletamdis .buttongenerartamdis:hover,fieldset#detalletamdis input.buttonprint:hover{background-image: linear-gradient(to bottom, #000, #000); background-color: #000;}
+#fichaPedidoSeur  #datos_tarifa,#fichaPedidoSeur  #datos_etiquetas,#fichaPedidoSeur #desgloseCosteEnvio{display: none;}
+#fichaPedidoSeur #desgloseCosteEnvio table caption{ font-weight: bold; padding: 5px;text-align: left; background-color: #E6E6E6  }
+#fichaPedidoSeur #desgloseCosteEnvio table caption img{cursor: pointer; float: right;padding: 5px 5px 0px 0px}
+#fichaPedidoSeur #desgloseCosteEnvio table th,#fichaPedidoSeur #desgloseCosteEnvio table td{ padding: 5px;background-color: #E6E6E6 }
+#loaderTarifa{padding: 10px;text-align: center;}
